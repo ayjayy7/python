@@ -22,8 +22,10 @@ year=input('Enter year of birth: ')
 month=input('Enter month of birth: ')
 day=input('Enter day of birth: ')
 
-check_birthdate(year , month , day)
-calculate_age(year,month,day)
+if (today.year - year >=0):
+	calculate_age(year,month,day)
+else:
+	print("False")
 
 #check_birthdate(year , month , day)
 #calculate_age(year,month,day)
